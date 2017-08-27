@@ -1,6 +1,6 @@
 # Response to the farmdrop technical test
 
-## Dependances
+## Dependencies
 
 You need to install:
 
