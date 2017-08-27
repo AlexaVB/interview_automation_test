@@ -1,6 +1,6 @@
-##Response to the farmdrop technical test
+# Response to the farmdrop technical test
 
-##Dependances
+## Dependances
 
 You need to install:
 
@@ -14,7 +14,7 @@ Install all of the required gems:
 
 $ bundle
 
-###Rubocop
+## Rubocop
 
 To assess Ruby code quality:
 
@@ -24,7 +24,7 @@ To run the tool, use:
 
 $ rubocop
 
-###Running Cucumber scenarios
+## Running Cucumber scenarios
 
 For regression testing:
 
