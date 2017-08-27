@@ -1,3 +1,56 @@
+##Response to the farmdrop technical test
+
+##Dependances
+
+You need to install:
+
+Ruby
+
+[Bundler](http://bundler.io/)
+
+[PhantomJS](https://github.com/teampoltergeist/poltergeist#installing-phantomjs)
+
+Install all of the required gems:
+
+$ bundle
+
+###Rubocop
+
+To assess Ruby code quality:
+
+[Rubocop](https://github.com/bbatsov/rubocop)
+
+To run the tool, use:
+
+$ rubocop
+
+###Running Cucumber scenarios
+
+For regression testing:
+
+[Cucumber](http://cukes.info/)
+
+[Capybara](https://github.com/jnicklas/capybara)
+
+To run all Cucumber tests, from root directory:
+
+$ cucumber
+
+To run the all scenarios in a particular feature file:
+
+$ cucumber features/sign_up.feature  
+
+To run a particular scenario using line number:
+
+$ cucumber features/sign_up.feature:6
+
+To run in a browser:
+
+$ DRIVER=chrome cucumber
+
+$ DRIVER=firefox cucumber
+
+
 # Welcome to the farmdrop technical test for automation testers
 
 Please spend no more than two hours on the following task. You are not expected to finish all of it - this is as much to understand how you approach things as it is to see if you can build working tests.

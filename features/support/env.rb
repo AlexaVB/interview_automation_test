@@ -1,0 +1,5 @@
+require 'capybara/poltergeist'
+require 'capybara-screenshot/cucumber'
+require 'pry'
+require 'selenium-webdriver'
+require 'site_prism'
